@@ -11,19 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcb46a22-3141-4b3d-bbb1-83e901c880a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout-v11/wallpaper_picker.xml" />
-      <change type="DELETED" beforePath="C:\Users\master\Projects\WallpaperPicker\.idea\libraries\appcompat_v7_22_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\master\Projects\WallpaperPicker\.idea\libraries\support_annotations_22_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\master\Projects\WallpaperPicker\.idea\libraries\support_v4_22_2_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\master\Projects\WallpaperPicker\app\sample.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPickerLibrary/WallpaperPickerLibrary.iml" afterPath="$PROJECT_DIR$/WallpaperPickerLibrary/WallpaperPickerLibrary.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPickerLibrary/build.gradle" afterPath="$PROJECT_DIR$/WallpaperPickerLibrary/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/WallpaperPickerActivity.java" afterPath="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/WallpaperPickerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/wallpapers.xml" afterPath="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/wallpapers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WallpaperPicker.iws" />
@@ -55,7 +44,7 @@
       <file leaf-file-name="wallpaper_picker_item.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/wallpaper_picker_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.87931037">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="17" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="17" />
               <folding />
             </state>
@@ -70,7 +59,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="303" column="34" selection-start-line="303" selection-start-column="34" selection-end-line="303" selection-end-column="34" />
-              <folding />
+              <folding>
+                <element signature="e#0#11070#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#4148#4149#0" expanded="false" />
+                <element signature="e#4191#4192#0" expanded="false" />
+                <element signature="e#5848#5849#0" expanded="false" />
+                <element signature="e#5898#5899#0" expanded="false" />
+                <element signature="e#7389#7390#0" expanded="false" />
+                <element signature="e#7438#7439#0" expanded="false" />
+                <element signature="e#8058#8059#0" expanded="false" />
+                <element signature="e#8108#8109#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,23 +78,18 @@
       <file leaf-file-name="SavedWallpaperImages.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/SavedWallpaperImages.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-70.344826">
+            <state vertical-scroll-proportion="0.0">
               <caret line="189" column="87" selection-start-line="189" selection-start-column="86" selection-end-line="189" selection-end-column="87" />
-              <folding>
-                <element signature="e#3601#3602#0" expanded="true" />
-                <element signature="e#3638#3639#0" expanded="true" />
-                <element signature="e#3693#3694#0" expanded="true" />
-                <element signature="e#3737#3738#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wallpaper_picker_image_picker_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/wallpaper_picker_image_picker_item.xml">
+      <file leaf-file-name="wallpaper_picker.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/wallpaper_picker.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <caret line="53" column="64" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -103,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wallpaper_picker.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/wallpaper_picker.xml">
+      <file leaf-file-name="actionbar_set_wallpaper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/actionbar_set_wallpaper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="61" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="61" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -120,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/WallpaperCropActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="298" column="12" selection-start-line="298" selection-start-column="12" selection-end-line="298" selection-end-column="12" />
+              <caret line="331" column="38" selection-start-line="331" selection-start-column="27" selection-end-line="331" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -129,18 +124,42 @@
       <file leaf-file-name="WallpaperPickerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/WallpaperPickerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33272395">
-              <caret line="1039" column="33" selection-start-line="1039" selection-start-column="33" selection-end-line="1039" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.34026927">
+              <caret line="509" column="9" selection-start-line="509" selection-start-column="9" selection-end-line="509" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#UriWallpaperInfo#0;class#WallpaperPickerActivity#0" expanded="false" />
-                <element signature="class#FileWallpaperInfo#0;class#WallpaperPickerActivity#0" expanded="false" />
-                <element signature="class#ResourceWallpaperInfo#0;class#WallpaperPickerActivity#0" expanded="false" />
-                <element signature="class#DefaultWallpaperInfo#0;class#WallpaperPickerActivity#0" expanded="false" />
                 <element signature="method#setSystemWallpaperVisiblity#0;class#WallpaperPickerActivity#0" expanded="false" />
                 <element signature="method#changeWallpaperFlags#0;class#WallpaperPickerActivity#0" expanded="false" />
-                <element signature="method#setCropViewTileSource#0;class#WallpaperPickerActivity#0" expanded="false" />
+                <element signature="e#20497#21195#0" expanded="true" />
+                <element signature="e#21194#21195#0" expanded="true" />
+                <element signature="e#21943#22550#0" expanded="true" />
+                <element signature="e#22549#22550#0" expanded="true" />
+                <element signature="e#24160#24291#0" expanded="true" />
+                <element signature="e#24762#24768#0" expanded="true" />
+                <element signature="e#27116#27181#0" expanded="true" />
+                <element signature="e#27561#27967#0" expanded="true" />
+                <element signature="e#27966#27967#0" expanded="true" />
+                <element signature="e#31719#31831#0" expanded="true" />
+                <element signature="e#32077#32135#0" expanded="true" />
+                <element signature="e#32153#32212#0" expanded="true" />
+                <element signature="e#38213#38214#0" expanded="true" />
+                <element signature="e#38273#38274#0" expanded="true" />
+                <element signature="e#38464#38483#0" expanded="true" />
+                <element signature="e#46740#46741#0" expanded="true" />
+                <element signature="e#46772#46773#0" expanded="true" />
+                <element signature="e#46824#46825#0" expanded="true" />
+                <element signature="e#46859#46860#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallpapers.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/wallpapers.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -158,6 +177,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -2350,7 +2370,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/lb/com/wallpaperpicker/UserManagerCompatVL.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lb/com/wallpaperpicker/UserManagerCompatV17.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lb/com/wallpaperpicker/UserManagerCompatV16.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/lb/com/wallpaperpicker/LauncherAppsCompat.java" />
@@ -2399,6 +2418,7 @@
         <option value="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout-v11/wallpaper_picker.xml" />
         <option value="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/wallpaper_picker.xml" />
         <option value="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/config.xml" />
+        <option value="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/wallpapers.xml" />
         <option value="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/WallpaperCropActivity.java" />
         <option value="$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/WallpaperPickerActivity.java" />
       </list>
@@ -2442,9 +2462,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2463,83 +2480,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPicker" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPickerLibrary" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPicker" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPickerLibrary" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPicker" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPickerLibrary" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPicker" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPickerLibrary" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPicker" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WallpaperPickerLibrary" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2803,7 +2749,23 @@
       <option name="number" value="Default" />
       <updated>1433611222829</updated>
     </task>
+    <task id="LOCAL-00001" summary="First stable version">
+      <created>1440769735253</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1440769735253</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="1900" y="0" width="1936" height="1056" extended-state="0" />
@@ -2811,20 +2773,18 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32814237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31412894" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.51028806" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.06006674" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.06006674" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -2834,6 +2794,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39917696" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -2848,6 +2810,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First stable version" />
+    <option name="LAST_COMMIT_MESSAGE" value="First stable version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2867,13 +2833,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/UserManagerCompatV16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23356009">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/UserManagerCompatV17.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46258503">
@@ -3083,7 +3042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="99" column="59" selection-start-line="99" selection-start-column="51" selection-end-line="99" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3102,18 +3060,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/drawable-xhdpi/tile_shadow_top.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
+      <provider editor-type-id="images">
         <state />
       </provider>
-      <provider editor-type-id="images">
+      <provider selected="true" editor-type-id="ninepatcheditor">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/drawable-xhdpi/tile_shadow_bottom.9.png">
-      <provider selected="true" editor-type-id="ninepatcheditor">
+      <provider editor-type-id="images">
         <state />
       </provider>
-      <provider editor-type-id="images">
+      <provider selected="true" editor-type-id="ninepatcheditor">
         <state />
       </provider>
     </entry>
@@ -3131,17 +3089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/wallpaper_picker.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="61" selection-start-line="57" selection-start-column="47" selection-end-line="57" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -3180,14 +3127,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/wallpapers.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4722222">
@@ -3196,51 +3135,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/LauncherFiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8854167">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/WallpaperCropActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="298" column="12" selection-start-line="298" selection-start-column="12" selection-end-line="298" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/SavedWallpaperImages.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-70.344826">
+        <state vertical-scroll-proportion="0.0">
           <caret line="189" column="87" selection-start-line="189" selection-start-column="86" selection-end-line="189" selection-end-column="87" />
-          <folding>
-            <element signature="e#3601#3602#0" expanded="true" />
-            <element signature="e#3638#3639#0" expanded="true" />
-            <element signature="e#3693#3694#0" expanded="true" />
-            <element signature="e#3737#3738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/wallpaper_picker_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.87931037">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="17" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="303" column="34" selection-start-line="303" selection-start-column="34" selection-end-line="303" selection-end-column="34" />
-          <folding />
+          <folding>
+            <element signature="e#0#11070#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4148#4149#0" expanded="false" />
+            <element signature="e#4191#4192#0" expanded="false" />
+            <element signature="e#5848#5849#0" expanded="false" />
+            <element signature="e#5898#5899#0" expanded="false" />
+            <element signature="e#7389#7390#0" expanded="false" />
+            <element signature="e#7438#7439#0" expanded="false" />
+            <element signature="e#8058#8059#0" expanded="false" />
+            <element signature="e#8108#8109#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3252,19 +3170,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/values/wallpapers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/actionbar_set_wallpaper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/wallpaper_picker_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/res/layout/wallpaper_picker.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="64" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/WallpaperCropActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="331" column="38" selection-start-line="331" selection-start-column="27" selection-end-line="331" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/LauncherFiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WallpaperPickerLibrary/src/main/java/com/lb/wallpaper_picker_library/WallpaperPickerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33272395">
-          <caret line="1039" column="33" selection-start-line="1039" selection-start-column="33" selection-end-line="1039" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.34026927">
+          <caret line="509" column="9" selection-start-line="509" selection-start-column="9" selection-end-line="509" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#UriWallpaperInfo#0;class#WallpaperPickerActivity#0" expanded="false" />
-            <element signature="class#FileWallpaperInfo#0;class#WallpaperPickerActivity#0" expanded="false" />
-            <element signature="class#ResourceWallpaperInfo#0;class#WallpaperPickerActivity#0" expanded="false" />
-            <element signature="class#DefaultWallpaperInfo#0;class#WallpaperPickerActivity#0" expanded="false" />
             <element signature="method#setSystemWallpaperVisiblity#0;class#WallpaperPickerActivity#0" expanded="false" />
             <element signature="method#changeWallpaperFlags#0;class#WallpaperPickerActivity#0" expanded="false" />
-            <element signature="method#setCropViewTileSource#0;class#WallpaperPickerActivity#0" expanded="false" />
+            <element signature="e#20497#21195#0" expanded="true" />
+            <element signature="e#21194#21195#0" expanded="true" />
+            <element signature="e#21943#22550#0" expanded="true" />
+            <element signature="e#22549#22550#0" expanded="true" />
+            <element signature="e#24160#24291#0" expanded="true" />
+            <element signature="e#24762#24768#0" expanded="true" />
+            <element signature="e#27116#27181#0" expanded="true" />
+            <element signature="e#27561#27967#0" expanded="true" />
+            <element signature="e#27966#27967#0" expanded="true" />
+            <element signature="e#31719#31831#0" expanded="true" />
+            <element signature="e#32077#32135#0" expanded="true" />
+            <element signature="e#32153#32212#0" expanded="true" />
+            <element signature="e#38213#38214#0" expanded="true" />
+            <element signature="e#38273#38274#0" expanded="true" />
+            <element signature="e#38464#38483#0" expanded="true" />
+            <element signature="e#46740#46741#0" expanded="true" />
+            <element signature="e#46772#46773#0" expanded="true" />
+            <element signature="e#46824#46825#0" expanded="true" />
+            <element signature="e#46859#46860#0" expanded="true" />
           </folding>
         </state>
       </provider>

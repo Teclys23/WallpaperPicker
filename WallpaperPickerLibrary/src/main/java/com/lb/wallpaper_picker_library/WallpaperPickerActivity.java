@@ -22,10 +22,12 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.app.WallpaperInfo;
 import android.app.WallpaperManager;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
+import android.content.res.AssetManager;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.DataSetObserver;
@@ -71,8 +73,10 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.net.URI;
 import java.util.ArrayList;
 
 import com.lb.wallpaper_picker_library.BitmapRegionTileSource.BitmapSource;
@@ -461,7 +465,7 @@ public class WallpaperPickerActivity extends WallpaperCropActivity {
         mWallpapersView = (LinearLayout) findViewById(R.id.wallpaper_list);
         SimpleWallpapersAdapter ia = new SimpleWallpapersAdapter(this, wallpapers);
         populateWallpapersFromAdapter(mWallpapersView, ia, false);
-
+/*
         // Populate the saved wallpapers
         mSavedImages = new SavedWallpaperImages(this);
         mSavedImages.loadThumbnailsAndImageIdList();
@@ -509,7 +513,7 @@ public class WallpaperPickerActivity extends WallpaperCropActivity {
         pickImageTile.setTag(pickImageInfo);
         pickImageInfo.setView(pickImageTile);
         pickImageTile.setOnClickListener(mThumbnailOnClickListener);
-
+*/
         // Select the first item; wait for a layout pass so that we initialize the dimensions of
         // cropView or the defaultWallpaperView first
         mCropView.addOnLayoutChangeListener(new OnLayoutChangeListener() {
@@ -968,14 +972,13 @@ public class WallpaperPickerActivity extends WallpaperCropActivity {
 
         if (partner == null || !partner.hideDefaultWallpaper()) {
             // Add an entry for the default wallpaper (stored in system resources)
-            WallpaperTileInfo defaultWallpaperInfo =
-                    (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT)
-                    ? getPreKKDefaultWallpaperInfo()
-                    : getDefaultWallpaper();
+            WallpaperTileInfo defaultWallpaperInfo = (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT)? getPreKKDefaultWallpaperInfo(): getDefaultWallpaper();
+
             if (defaultWallpaperInfo != null) {
                 bundled.add(0, defaultWallpaperInfo);
             }
         }
+
         return bundled;
     }
 
@@ -995,8 +998,13 @@ public class WallpaperPickerActivity extends WallpaperCropActivity {
     }
 
     private File getDefaultThumbFile() {
-        return new File(getFilesDir(), Build.VERSION.SDK_INT
-                + "_" + LauncherFiles.DEFAULT_WALLPAPER_THUMBNAIL);
+        //return new File(getFilesDir(), Build.VERSION.SDK_INT
+        //        + "_" + LauncherFiles.DEFAULT_WALLPAPER_THUMBNAIL);
+        Resources res = getResources();
+        int resId = R.drawable.wp_001_small;
+        Uri uri = Uri.parse(ContentResolver.SCHEME_ANDROID_RESOURCE + "://" + res.getResourcePackageName(resId) + "/" + res.getResourceTypeName(resId) + res.getResourceEntryName(resId));
+        return new File(uri.getPath());
+
     }
 
     private boolean saveDefaultWallpaperThumb(Bitmap b) {
@@ -1011,8 +1019,9 @@ public class WallpaperPickerActivity extends WallpaperCropActivity {
     }
 
     private ResourceWallpaperInfo getPreKKDefaultWallpaperInfo() {
-        Resources sysRes = Resources.getSystem();
-        int resId = sysRes.getIdentifier("default_wallpaper", "drawable", "android");
+        Resources sysRes = getResources();
+        //int resId = sysRes.getIdentifier("default_wallpaper", "drawable", "android");
+        int resId = R.drawable.wp_001_small;
 
         File defaultThumbFile = getDefaultThumbFile();
         Bitmap thumb = null;
@@ -1040,9 +1049,12 @@ public class WallpaperPickerActivity extends WallpaperCropActivity {
     private DefaultWallpaperInfo getDefaultWallpaper() {
         File defaultThumbFile = getDefaultThumbFile();
         Bitmap thumb = null;
+        thumb = BitmapFactory.decodeResource(getResources(), R.drawable.wp_001);
+
         boolean defaultWallpaperExists = false;
+
         if (defaultThumbFile.exists()) {
-            thumb = BitmapFactory.decodeFile(defaultThumbFile.getAbsolutePath());
+            //thumb = BitmapFactory.decodeFile(defaultThumbFile.getAbsolutePath());
             defaultWallpaperExists = true;
         } else {
             Resources res = getResources();
